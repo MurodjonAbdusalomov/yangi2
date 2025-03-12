@@ -5,9 +5,9 @@ import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 
 const Header = () => {
   return (
-    <div id='container'>
+    <div className='header' id='container'>
         <div className='imgg2'>
-           <img className='img2' src={asosimg} alt="" />
+           {/* <img className='img2' src={asosimg} alt="" /> */}
         </div>
 
         <div className='header1'>

@@ -4,6 +4,12 @@
   box-sizing: border-box;
   color: white;
 }
+.header {
+  background-image: url(assets/sss.png);
+}
+.header {
+  height: 600px;
+}
 
 body {
   background-color: #141414;
@@ -81,25 +87,28 @@ body {
 .header1 {
   line-height: 22px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 520px;
 }
 
 .header1 h2 {
   font-family: serif;
   color: #FFFFFF;
-  font-size: 38px;
-  margin-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .header1 p {
   color: #999999;
   font-family: serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .eror {
+  width: 290px;
+  height: 40px;
   background-color: rgba(255, 0, 0, 0.701) !important;
-  margin-top: 10px !important;
+  margin-top: 20px !important;
+  
 }
 
 /* ________________________________________________________________________________________ */
@@ -121,6 +130,7 @@ body {
   height: 50px;
   background-color: #242424;
   width: 250px;
+  margin-top: 100px;
 }
 
 .sahifa1 {
@@ -128,7 +138,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
+}
+
+.name {
+  margin-top: 100px;
 }
 
 .sahifa1 h2 {
@@ -268,7 +282,7 @@ body {
   margin-top: 10px;
 }
 
-#div {
+.div {
   font-family: sans-serif;
   text-align: center;
   padding: 10px;
@@ -291,17 +305,281 @@ body {
 .asoss h3 {
   font-family: serif;
 }
+
 #chiziq {
   margin-left: 70px;
 }
 
 .asoss {
-  width: 620px;
+  width: 600px;
   height: 140px;
   display: flex;
-  padding: 15px;
-  border: 3px solid red;
+  padding: 10px;
+  border-bottom: 1px solid #8A0909;
 }
+
+.almaz22 h3 {
+  margin-top: 32px;
+}
+
+
+.almaz22 img {
+  width: 54px;
+  height: 54px;
+  margin: 10px;
+}
+
+.almaz22 div {
+  display: flex;
+  align-items: center;
+}
+
+.asoss {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px 90px 0px 0px;
+}
+
+.asoss div {
+  margin: 16px;
+}
+
+.div23 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btn22 {
+  margin-left: 244px;
+}
+
+
+.shans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* _________________________________________________________________________________ */
+/* section4 */
+
+
+
+.kkk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.kkk h2 {
+  font-size: 30px;
+
+}
+
+
+
+.childer {
+  width: 420px;
+  height: 385px;
+  padding: 42px;
+  margin-top: 90px;
+  background-color: #1A1A1A;
+  margin: 20px;
+  line-height: 22px;
+  border-radius: 17px;
+  margin-top: 40px;
+}
+
+#jjjk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.childer h4 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.childer p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #999999;
+  margin-bottom: 50px;
+}
+
+.childer h1::after {
+  content: "/month";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 5px;
+  color: #999999;
+}
+
+.childer h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 55px;
+}
+
+.childer button {
+  width: 140px;
+  height: 45px;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+.btn11 {
+  background-color: #141414;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  margin-right: 13px;
+}
+
+.btn12 {
+  background-color: #E50000;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn11:active {
+  background-color: #b4b4b4;
+}
+
+.btn12:active {
+  background-color: #3c0909;
+}
+
+.kkk h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.kkk p {
+  font-size: 18px;
+  color: #999999;
+}
+
+.kkk2 {
+  width: 190px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  background-color: #1A1A1A;
+}
+
+.monthly {
+  width: 90px;
+  height: 40px;
+  background-color: #252525;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.yer {
+  width: 90px;
+  height: 40px;
+  background-color: #151515;
+  border: none;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.yer:active {
+  background-color: #999999;
+}
+
+.monthly:active {
+  background-color: #999999;
+}
+
+
+
+
+
+
+
+/* _______________________________________________________________________ */
+/* Section 5 */
+
+.fff {
+  width: 100%;
+  height: 230px !important;
+  background: linear-gradient(#09026e2d, #cd0f0f1c);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+/* _________________________________________________________ */
+/* footer */
+
+
+.fotter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1d1d;
+  padding: 15px
+}
+
+.fotter h4 {
+  font-size: 20px;
+}
+
+.fotter p {
+  font-family: 12px;
+  font-weight: 300;
+  color: #999999;
+  line-height: 24px;
+}
+
+.hr {
+  color: #000000;
+}
+
+.f2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: ;
+}
+
+.f2 p {
+  font-size: 19px;
+  color: #dfdcdc;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.f2 a {
+  font-size: 18px;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: rgb(61, 61, 255);
+}
+
+
 
 
 
@@ -314,9 +592,76 @@ body {
   .a {
     display: none;
   }
+  
+.f2 {
+  flex-wrap: wrap;
+}
+.f2 a {
+  font-size: 14px;
+  margin: 0;
+ 
+}
+  .kkk {
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .childer {
+    width: 460px;
+    height: 380px;
+    padding: 25px;
+  }
+
+  .childer button {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  #jjjk {
+    justify-content: center;
+  }
+
+  .almaz {
+    max-width: 460px;
+  }
+
+  .tablee2 {
+    max-width: 460px;
+    flex-wrap: wrap;
+  }
+
+  #btn22 {
+    text-align: start;
+    margin: 0;
+  }
 
   .header1 h2 {
     font-size: 27px;
+  }
+
+  .div23 {
+    text-align: start;
+  }
+
+  .asoss {
+    width: 340px;
+    font-size: 19px;
+    text-align: start;
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+
+  .div {
+    display: none;
+  }
+
+  .chiziq {
+    display: none;
+  }
+
+  .div23 h2 {
+    text-align: start;
   }
 
   .header1 p {
@@ -330,11 +675,90 @@ body {
   .otaE {
     display: none;
   }
+
+  .table {
+    flex-wrap: wrap;
+  }
+
+  .tableh h2 {
+    font-size: 5px;
+  }
+
+  .tablep {
+    max-width: 300px;
+  }
+
+  .div p {
+    max-width: 300px;
+    margin-right: 20px;
+  }
+
+
+
+
+  .asoss p {
+    max-width: 300px;
+  }
+
+  .fotter {
+    display: flex none;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+
+  .fotter div {
+   padding: 30px;
+  }
+
 }
+
+
+.fff {
+width: 100%;
+}
+
 
 @media (max-width: 425px) {
   .ikonka1 {
     display: none;
+  }
+  .fff p {
+    display: none;
+    
+  }
+  
+  .fff button {
+    font-size: 10px;
+    width: 100px;
+    height: 60px;
+  }
+  
+  .fff h2 {
+    font-size: 22px;
+  }
+
+  .f2 {
+    font-size: 10px;
+    flex-wrap: wrap;
+    display: block;
+  }
+
+  .div23 {
+    flex-wrap: wrap;
+  }
+
+  .childer button {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .table {
+    flex-wrap: wrap;
+  }
+
+  .almaz2 {
+    margin: 0 auto;
   }
 
   .eror {
@@ -375,7 +799,49 @@ body {
     margin: 0 auto;
     margin: 10px 0px;
   }
+
+  .hh22 {
+    font-size: 10px;
+  }
+
+  .asoss {
+    margin-right: 90px;
+  }
 }
+
+.tableh2 {
+  width: 420px;
+  font-size: 16;
+}
+
+.shans {
+  flex-wrap: wrap;
+}
+
+#jjjk {
+  flex-wrap: wrap;
+}
+
+
+
+
+  .fff h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+
+  .fff p {
+    font-size: 17px;
+    color: #999999;
+    margin: 10px 0px;
+  }
+
+  .fff button {
+    padding: 14px;
+  }
+
+
 
 @media (max-width: 375px) {
   .asos1 h1 {
